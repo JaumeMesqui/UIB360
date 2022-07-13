@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT28.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2231630">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_centre_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="716-447468"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="447469-1147204"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="1147205-1767325"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="1767326-2415204"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="2415205-3061287"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="3061288-3680129"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="3680130-4318181"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="4318182-4955260"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="4955261-5579947"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="5579948-6240951"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="6240952-6860984"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="6860985-7470487"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="7470488-8081569"/>
+          <SegmentURL media="carrer_centre_720_frag.mp4" mediaRange="8081570-8661560"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="3996166">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_centre_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="717-937154"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="937155-2146624"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="2146625-3215172"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="3215173-4362688"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="4362689-5542253"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="5542254-6638352"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="6638353-7766333"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="7766334-8917056"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="8917057-10047391"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="10047392-11217377"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="11217378-12327975"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="12327976-13423605"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="13423606-14508410"/>
+          <SegmentURL media="carrer_centre_1080_frag.mp4" mediaRange="14508411-15616852"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

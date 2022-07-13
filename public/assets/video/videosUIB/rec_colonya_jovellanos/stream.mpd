@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT15.920S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2359512">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_colonya_jovellanos_720_frag.mp4" range="36-753"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="754-590631"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="590632-1259266"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="1259267-1849650"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="1849651-2487274"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="2487275-3104986"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="3104987-3734468"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="3734469-4357887"/>
+          <SegmentURL media="rec_colonya_jovellanos_720_frag.mp4" mediaRange="4357888-4947646"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4322912">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_colonya_jovellanos_1080_frag.mp4" range="36-755"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="756-1081483"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="1081484-2270772"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="2270773-3350344"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="3350345-4494846"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="4494847-5603419"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="5603420-6736153"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="6736154-7867298"/>
+          <SegmentURL media="rec_colonya_jovellanos_1080_frag.mp4" mediaRange="7867299-8933279"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

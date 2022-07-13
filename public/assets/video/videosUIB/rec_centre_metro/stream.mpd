@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT14.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2368864">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_centre_metro_720_frag.mp4" range="36-753"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="754-592969"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="592970-1267359"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="1267360-1908291"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="1908292-2554507"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="2554508-3169075"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="3169076-3755454"/>
+          <SegmentURL media="rec_centre_metro_720_frag.mp4" mediaRange="3755455-4340779"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4300328">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_centre_metro_1080_frag.mp4" range="36-755"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="756-1075837"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="1075838-2268076"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="2268077-3420094"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="3420095-4577718"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="4577719-5690695"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="5690696-6755197"/>
+          <SegmentURL media="rec_centre_metro_1080_frag.mp4" mediaRange="6755198-7828233"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

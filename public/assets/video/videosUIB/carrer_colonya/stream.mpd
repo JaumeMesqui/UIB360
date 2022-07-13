@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT26.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2196878">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_colonya_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="716-499476"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="499477-1169487"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="1169488-1787339"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="1787340-2443412"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="2443413-3082223"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="3082224-3696673"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="3696674-4323202"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="4323203-4953920"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="4953921-5583695"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="5583696-6225928"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="6225929-6865137"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="6865138-7469179"/>
+          <SegmentURL media="carrer_colonya_720_frag.mp4" mediaRange="7469180-8071520"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4091061">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_colonya_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="717-999195"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="999196-2189443"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="2189444-3274345"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="3274346-4426220"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="4426221-5567406"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="5567407-6660017"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="6660018-7807760"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="7807761-8958543"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="8958544-10073861"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="10073862-11238558"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="11238559-12366286"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="12366287-13421838"/>
+          <SegmentURL media="carrer_colonya_1080_frag.mp4" mediaRange="13421839-14520780"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

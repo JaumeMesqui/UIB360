@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT1M9.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2374146">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_doctorats_centre_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="716-536950"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="536951-1179260"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="1179261-1891503"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="1891504-2602515"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="2602516-3243076"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="3243077-3923811"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="3923812-4649862"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="4649863-5383338"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="5383339-6040321"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="6040322-6535666"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="6535667-7218755"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="7218756-8045038"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="8045039-8534117"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="8534118-9051495"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="9051496-9929093"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="9929094-10538017"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="10538018-10869100"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="10869101-11286795"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="11286796-11750414"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="11750415-12207318"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="12207319-12890834"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="12890835-13556551"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="13556552-14349066"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="14349067-14912766"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="14912767-15384503"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="15384504-15904195"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="15904196-16484934"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="16484935-17212790"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="17212791-17890172"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="17890173-18410447"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="18410448-19081008"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="19081009-19700954"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="19700955-20330730"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="20330731-20916103"/>
+          <SegmentURL media="rec_doctorats_centre_720_frag.mp4" mediaRange="20916104-21219991"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4440516">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_doctorats_centre_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="717-1004576"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="1004577-2155999"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="2156000-3392505"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="3392506-4643507"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="4643508-5798413"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="5798414-7012918"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="7012919-8307367"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="8307368-9617321"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="9617322-10797380"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="10797381-11731934"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="11731935-12935455"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="12935456-14391079"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="14391080-15310700"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="15310701-16289104"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="16289105-17879046"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="17879047-19068388"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="19068389-19738890"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="19738891-20542980"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="20542981-21398492"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="21398493-22245404"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="22245405-23433193"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="23433194-24610716"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="24610717-25984555"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="25984556-27027732"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="27027733-27913070"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="27913071-28863288"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="28863289-29900497"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="29900498-31136412"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="31136413-32328801"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="32328802-33296594"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="33296595-34449017"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="34449018-35559933"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="35559934-36694407"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="36694408-37760439"/>
+          <SegmentURL media="rec_doctorats_centre_1080_frag.mp4" mediaRange="37760440-38315002"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

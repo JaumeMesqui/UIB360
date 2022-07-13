@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT17.040S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2451200">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_doctorats_colonya_720_frag.mp4" range="36-753"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="754-613553"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="613554-1196614"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="1196615-1805182"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="1805183-2509760"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="2509761-3117730"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="3117731-3785833"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="3785834-4313207"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="4313208-4896198"/>
+          <SegmentURL media="rec_doctorats_colonya_720_frag.mp4" mediaRange="4896199-5285380"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4440708">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_doctorats_colonya_1080_frag.mp4" range="36-755"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="756-1110932"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="1110933-2176704"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="2176705-3283810"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="3283811-4524585"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="4524586-5631927"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="5631928-6821071"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="6821072-7808037"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="7808038-8866422"/>
+          <SegmentURL media="rec_doctorats_colonya_1080_frag.mp4" mediaRange="8866423-9543720"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

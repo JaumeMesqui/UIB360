@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT22.160S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2122207">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="ramon_llull_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="716-440435"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="440436-1035211"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="1035212-1622299"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="1622300-2238807"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="2238808-2835649"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="2835650-3404250"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="3404251-4006227"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="4006228-4612564"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="4612565-5244260"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="5244261-5851053"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="5851054-6473973"/>
+          <SegmentURL media="ramon_llull_720_frag.mp4" mediaRange="6473974-6619632"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="3968364">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="ramon_llull_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="717-845951"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="845952-1929326"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="1929327-3077826"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="3077827-4129573"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="4129574-5283052"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="5283053-6413595"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="6413596-7518304"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="7518305-8629656"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="8629657-9832917"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="9832918-10945297"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="10945298-12076042"/>
+          <SegmentURL media="ramon_llull_1080_frag.mp4" mediaRange="12076043-12289520"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

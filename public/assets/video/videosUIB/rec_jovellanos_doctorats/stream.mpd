@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT37.960S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2379683">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_jovellanos_doctorats_720_frag.mp4" range="36-753"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="754-591547"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="591548-1353493"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="1353494-2151598"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="2151599-2757934"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="2757935-3428816"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="3428817-3971410"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="3971411-4610644"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="4610645-5165659"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="5165660-5759856"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="5759857-6362849"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="6362850-6737416"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="6737417-7070519"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="7070520-7498666"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="7498667-7988757"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="7988758-8600095"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="8600096-9264642"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="9264643-10022530"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="10022531-10805545"/>
+          <SegmentURL media="rec_jovellanos_doctorats_720_frag.mp4" mediaRange="10805546-11542514"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4393708">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_jovellanos_doctorats_1080_frag.mp4" range="36-755"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="756-1099182"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="1099183-2421605"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="2421606-3826766"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="3826767-4934375"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="4934376-6131801"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="6131802-7138993"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="7138994-8277306"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="8277307-9297408"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="9297409-10387281"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="10387282-11465134"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="11465135-12183269"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="12183270-12854876"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="12854877-13678273"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="13678274-14599217"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="14599218-15704130"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="15704131-16891206"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="16891207-18227929"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="18227930-19652865"/>
+          <SegmentURL media="rec_jovellanos_doctorats_1080_frag.mp4" mediaRange="19652866-20914118"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

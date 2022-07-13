@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT18.040S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2445732">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_colonya_anselm_720_frag.mp4" range="36-753"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="754-612186"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="612187-1266720"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="1266721-1890351"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="1890352-2460004"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="2460005-3085294"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="3085295-3741634"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="3741635-4336962"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="4336963-4872170"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="4872171-5463473"/>
+          <SegmentURL media="rec_colonya_anselm_720_frag.mp4" mediaRange="5463474-5501416"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4458192">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="rec_colonya_anselm_1080_frag.mp4" range="36-755"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="756-1115303"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="1115304-2292945"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="2292946-3409750"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="3409751-4458592"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="4458593-5576188"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="5576189-6740318"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="6740319-7820646"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="7820647-8816147"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="8816148-9901330"/>
+          <SegmentURL media="rec_colonya_anselm_1080_frag.mp4" mediaRange="9901331-9958930"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

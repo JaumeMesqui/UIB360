@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Analisis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Jaume Mesquida">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/highchart.css">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+    <script src="https://kit.fontawesome.com/35c3d8cf6f.js" crossorigin="anonymous"></script>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+</head>
+
+<body>
+
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a target="_blank" href="https://alumnes-ltim.uib.es/uib360/" class="nav-link px-2 text-white">Recorrido Virtual</a></li>
+                    <li><a target="_blank" href="https://alumnes-ltim.uib.es/uib360/editor.html" class="nav-link px-2 text-white">Editor</a></li>
+                    <li><a target="_blank" href="" class="nav-link px-2 text-white">Código (Git Hub)</a></li>
+                    <li><a target="_blank" href="https://www.uib.es/es/" class="nav-link px-2 text-white">UIB</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom">Información</h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-2 g-4 py-5">
+            <div class="col d-flex align-items-start">
+                <figure class="highcharts-figure">
+                    <div id="container"></div>
+                    <p class="highcharts-description">
+                        Este gráfico muestra la preferencia de idiomas en porcentaje por parte de los usuarios.
+                        Actualmente la aplicación web esta implementada solamente en estos tres idiomas pero es
+                        facilmente escalable.
+                    </p>
+                </figure>
+            </div>
+            <div class="col d-flex align-items-start">
+                <figure class="highcharts-figure">
+                    <div id="container1"></div>
+                    <p class="highcharts-description">
+                        Este gráfico muestra el número de visitas virtuales que ha habido en la aplicación web desde el lanzamiento de la aplicación.
+                        A partir de estos valores se puede observar la actividad que hay en la pàgina.
+                    </p>
+                </figure>
+            </div>
+            <div class="col d-flex align-items-start">
+                <figure class="highcharts-figure">
+                    <div id="container2"></div>
+                    <p class="highcharts-description">
+                        Este gráfico de columnas muestra el número de visualizaciones totales que ha tenido cada vídeo desde el lanzamiento de la aplicación web.
+                        Se puede observar cuales son los vídeos que han llamado más la atención y cuales no.
+                    </p>
+                </figure>
+            </div>
+            <div class="col d-flex align-items-start">
+                <figure class="highcharts-figure">
+                    <div id="container3"></div>
+                    <p class="highcharts-description">
+                        Este gráfico muestra un histograma dividido por el número promedio de vídeos visualizados en un recorrido virtual. El objetivo de este gráfico es mostrar
+                        si los usuarios realizan una visita extensa o si simplemente observan los primeros vídeos y abandonan la visita virtual.
+                    </p>
+                </figure>
+            </div>
+            <div class="col d-flex align-items-start mx-4"  style="width: 600px;">
+                <figure class="highcharts-figure">
+                    <h2>Mapa de calor de todos los vídeos</h2>
+                    <div class="d-flex">
+                        <div id="selectorAllVideos" class="mx-3" style="max-width: 400px;"></div>
+                        <div class="d-flex row px-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="boxAll" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Todos
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="boxLoop">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Bucle
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="boxRec">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Recorrido
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary" id="botonAllMapa">Generar</button>
+                        </div>
+                    </div>
+                    <video src="" id="videoMapa" style="height: 340px; width: 600px; position: absolute;"></video>
+                    <div class="container pt-6" style="height: 340px; width: 600px; position: static;" id="container4"></div>
+                    
+                    <p class="highcharts-description">
+                        Este mapa de calor muestra las zonas donde observan los usuarios en los vídeos seleccionados. Se puede seleccionar un vídeo, varios
+                        o todos con el objetivo de mostrar datos específicos o más generales.
+                    </p>
+                </figure>
+            </div>
+            <div class="col d-flex align-items-start">
+                <figure class="highcharts-figure">
+                    <h2>Mapa de calor temporal de un vídeo</h2>
+                    <div class="d-flex">
+                        <div id="selectorOneVideos" class="mx-3"></div>
+                        <div class="mx-3">
+                            <button type="button" class="btn btn-primary" id="botonMapa">Aplicar</button>
+                        </div>
+                    </div>
+
+                    <div class="timeline-wrapper pt-3 pb-3" id="buttonTime"></div>
+                    <video src="" loop id="videoMapaPlay" style="height: 340px; width: 600px; position: absolute;"></video>
+                    <div class="container pt-6 heatmap" style="position: relative; height: 340px; width: 600px;" id="container5"></div>
+                    
+                    <p class="highcharts-description">
+                        Este mapa de calor interactivo permite seleccionar un vídeo y reproducirlo para poder observar las zonas donde miran los usuarios durante
+                        el vídeo. Así, se puede observar que llama más la atención a los usuarios durante los vídeos en estático o en movimiento.
+                    </p>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--INCLUDE de los js-->
+    <script src="js/funcionsAnalisis.js"></script>
+    <script src="js/heatmap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+
+</body>
+
+</html>

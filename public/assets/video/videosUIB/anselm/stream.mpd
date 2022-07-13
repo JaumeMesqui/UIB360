@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT33.760S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2248501">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="anselm_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="716-497877"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="497878-1134082"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="1134083-1809873"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="1809874-2430705"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="2430706-3066495"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="3066496-3704140"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="3704141-4357795"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="4357796-4988375"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="4988376-5599651"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="5599652-6222237"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="6222238-6839221"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="6839222-7453853"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="7453854-8071918"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="8071919-8726051"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="8726052-9344707"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="9344708-9975990"/>
+          <SegmentURL media="anselm_720_frag.mp4" mediaRange="9975991-10504187"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4092724">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="anselm_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="717-957452"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="957453-2067067"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="2067068-3310257"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="3310258-4389848"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="4389849-5525382"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="5525383-6662254"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="6662255-7808487"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="7808488-8953581"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="8953582-10077006"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="10077007-11156816"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="11156817-12275040"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="12275041-13384755"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="13384756-14481669"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="14481670-15675039"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="15675040-16796774"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="16796775-17910732"/>
+          <SegmentURL media="anselm_1080_frag.mp4" mediaRange="17910733-18874319"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

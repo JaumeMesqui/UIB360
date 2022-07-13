@@ -1,0 +1,78 @@
+[
+    {
+        "ID": 0,
+        "nom": "Primer Video",
+        "loc": "assets/video/videosProva/primer.mp4",
+        "GeoPosicio": "",
+        "NextVideo": 0,
+        "Duracion": 18,
+        "loop": true,
+        "PuntsInteres": {
+            "Punt1": {
+                "ID": "P1",
+                "nom": "Jovellanos\nAnselm Turmeda\nCifre de Colonya",
+                "TempI": 0,
+                "LatI": 0,
+                "LongI": 80,
+                "TempF": 18,
+                "LatF": 0,
+                "LongF": 80,
+                "NextToma": 1
+            },"Punt2": {
+                "ID": "P2",
+                "nom": "Anselm Turmeda",
+                "TempI": 0,
+                "LatI": 0,
+                "LongI": -40,
+                "TempF": 18,
+                "LatF": 0,
+                "LongF": -40,
+                "NextToma": 2
+            }
+        }
+    },
+    {
+        "ID": 1,
+        "nom": "Primer Recorrido",
+        "loc": "assets/video/videosProva/recprimer.mp4",
+        "GeoPosicio": "",
+        "NextVideo": 2,
+        "Duracion": 29000,
+        "loop": false,
+        "PuntsInteres": {
+            "Punt1": {
+                "ID": "P3",
+                "nom": "Jovellanos",
+                "TempI": 2,
+                "LatI": 0,
+                "LongI": 30,
+                "TempF": 29,
+                "LatF": 0,
+                "LongF": 10,
+                "NextToma": 2
+            }
+        }
+    },
+    {
+        "ID": 2,
+        "nom": "Primer Video",
+        "loc": "assets/video/videosProva/segon.mp4",
+        "GeoPosicio": "",
+        "NextVideo": 2,
+        "Duracion": 11,
+        "loop": true,
+        "PuntsInteres": {
+            "Punt1": {
+                "ID": "P4",
+                "nom": "Anselm Turmeda",
+                "TempI": 0,
+                "LatI": 0,
+                "LongI": 2,
+                "TempF": 1,
+                "LatF": 1,
+                "LongF": 1,
+                "NextToma": 0
+            }
+        }
+    }
+]

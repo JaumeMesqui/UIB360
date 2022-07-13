@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT24.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2184150">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_jovellanos_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="716-468250"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="468251-1124321"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="1124322-1778621"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="1778622-2423802"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="2423803-3079215"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="3079216-3694614"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="3694615-4326825"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="4326826-4957422"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="4957423-5599354"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="5599355-6232074"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="6232075-6866527"/>
+          <SegmentURL media="carrer_jovellanos_720_frag.mp4" mediaRange="6866528-7441200"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4063010">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_jovellanos_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="717-951708"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="951709-2111432"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="2111433-3250865"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="3250866-4389352"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="4389353-5558725"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="5558726-6645534"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="6645535-7803883"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="7803884-8955996"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="8955997-10103843"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="10103844-11259504"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="11259505-12378154"/>
+          <SegmentURL media="carrer_jovellanos_1080_frag.mp4" mediaRange="12378155-13431078"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT24.160S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2198840">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="casasnovas_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="716-465376"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="465377-1148852"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="1148853-1791793"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="1791794-2435027"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="2435028-3069189"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="3069190-3717929"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="3717930-4360655"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="4360656-4972750"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="4972751-5600019"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="5600020-6197550"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="6197551-6829532"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="6829533-7455443"/>
+          <SegmentURL media="casasnovas_720_frag.mp4" mediaRange="7455444-7556887"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4053660">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="casasnovas_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="717-980776"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="980777-2120825"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="2120826-3277089"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="3277090-4426643"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="4426644-5560975"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="5560976-6717491"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="6717492-7870581"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="7870582-8975164"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="8975165-10120310"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="10120311-11207489"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="11207490-12318509"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="12318510-13457933"/>
+          <SegmentURL media="casasnovas_1080_frag.mp4" mediaRange="13457934-13620146"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

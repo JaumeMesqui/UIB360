@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2.00S" mediaPresentationDuration="PT26.000S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <Representation id="video-avc1-1" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="25" bandwidth="2211611">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_doctorats_720_frag.mp4" range="36-715"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="716-490726"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="490727-1156182"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="1156183-1784328"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="1784329-2420419"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="2420420-3032889"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="3032890-3669752"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="3669753-4319521"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="4319522-4957055"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="4957056-5578658"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="5578659-6241168"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="6241169-6892126"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="6892127-7484635"/>
+          <SegmentURL media="carrer_doctorats_720_frag.mp4" mediaRange="7484636-8092449"/>
+        </SegmentList>
+      </Representation>
+      <Representation id="video-avc1-2" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="25" bandwidth="4012059">
+        <SegmentList timescale="1000" duration="2000">
+          <Initialization sourceURL="carrer_doctorats_1080_frag.mp4" range="36-716"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="717-961582"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="961583-2141413"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="2141414-3266553"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="3266554-4397060"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="4397061-5534121"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="5534122-6622646"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="6622647-7762954"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="7762955-8927262"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="8927263-10052524"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="10052525-11233204"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="11233205-12398716"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="12398717-13439516"/>
+          <SegmentURL media="carrer_doctorats_1080_frag.mp4" mediaRange="13439517-14559167"/>
+        </SegmentList>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
